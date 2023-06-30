@@ -188,8 +188,20 @@
 	.navbar-brand{
 		padding-left: 0px;
 	}
-  
+  .slider{
+    margin: auto;
+  }
+  .colorname{
+    margin:   auto 200px;
+  }
+  .coloroutput{
+    font-size: 10px; margin: auto;
+  }
+  #showColor{
+    margin: 0;
+  }
 }
+
 
 @media only screen and (max-width: 768px){
 	

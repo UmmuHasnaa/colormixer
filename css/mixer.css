@@ -1,0 +1,94 @@
+.container{
+    width: 600px; margin-left: 40px;
+    padding: 20px;
+    border-radius: 5px; background-color: #eeeeee;
+    box-shadow: 0 0 10px rgba(0,0,0, 0.15);
+}
+#showColor{
+    border-radius: 50%;
+    border-style: solid;
+    height: 250px;
+    width: 250px;
+    background-color: red;
+    margin-left: 20%;
+    text-align: center;
+    padding-top: 100px;
+}
+.coloroutput {
+    font-family: 'Courier New', Courier, monospace; font-size: 20px; margin:AUTO 10%;
+}
+.coloroutput h2{
+    color: red; font-size: 30px;
+}
+.coloroutput span{
+    color: blue; margin-left: 30px;
+}
+.colorname{
+    margin: auto; margin-left: 140%;
+    font-family: Courier; font-size: 20px;
+}
+.slider{
+   width: 300px !important; 
+   margin: auto; margin-left: 110%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: darkgrey;
+    height: 82px;
+  }
+  
+  .inputs {
+    display: inline-block;
+    padding: 21px 17px;
+    font-size: 30px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  
+  input[type="range"] {
+    -webkit-appearance: none;
+    border-radius: 20px;
+  
+    height: 20px;
+    width: 125px;
+  }
+  
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 16px;
+    width: 16px;
+    cursor: pointer;
+    border-radius: 50px;
+  
+    background-color: #fff;
+  }
+  
+  
+  
+  #resultInRgb {
+  display: inline-block;
+    position: relative;
+    left: 459px;
+    font-size: 25px;
+    font-weight: 100;
+    letter-spacing:1px;
+    font-family:monospace;  
+  }
+  
+  
+  #redSlider {
+    background: linear-gradient(90deg, black, red);
+  }
+  
+  #greenSlider{
+    background: linear-gradient(90deg, black, green);
+  }
+  
+  #blueSlider {
+    background: linear-gradient(90deg, black, blue);
+  }
+  
