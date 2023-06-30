@@ -206,7 +206,7 @@
 @media only screen and (max-width: 768px){
 	
   .container{
-    min-width: 400px; padding-left: 0; margin-left: 0;
+    min-width: 350px; padding-left: 0; margin-left: 0;
     width: 100%; margin-left: 20px;
   }
   .maincontainer .container{
