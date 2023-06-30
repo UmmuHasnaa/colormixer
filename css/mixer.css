@@ -36,7 +36,9 @@ body {
     margin: 0;
     padding: 0;
   }
-  
+  .division{
+    display: flex;
+  }
   header {
     background-color: darkgrey;
     height: 82px;
