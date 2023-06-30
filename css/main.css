@@ -201,7 +201,7 @@
     margin: 0;
   }
   .division{
-    display: block; margin: auto 30%; margin-right: 0;
+    display: block; margin: auto 50px ; margin-right: 0;
   }
 }
 
@@ -209,7 +209,7 @@
 @media only screen and (max-width: 768px){
 	
   .container{
-    min-width: 380px; padding-left: 0; margin-left: 0;
+    min-width: 300px; padding-left: 0; margin-left: 0;
     width: 100%;
   }
   .maincontainer .container{
