@@ -29,7 +29,7 @@
     background-image: url(../image/Color.png);
     background-repeat: no-repeat;
     background-size: cover; 
-    padding: 3px; padding-bottom: 20px; 
+    padding: 3px; padding-bottom: 75px; 
   }
 .navbar-nav{
 	margin-right: 0 !important;
@@ -53,9 +53,6 @@
 .nav-item a{
 	 font-size:15px; margin-right: 40px; 
    font-weight: bolder;z-index:2; position:relative;
-}
-.nav-item a:hover{
-  background-color: #666; border-radius: 20px;padding-left: 4px;
 }
 .nav-item{
 	padding-top: 33px; 
@@ -137,7 +134,7 @@ line-height: normal;
 
 display: flex;
 width: 1300px;
-height: 255px;
+height: 200px;
 flex-direction: column;
 
 }
@@ -162,6 +159,9 @@ flex-direction: column;
 
   /* media */
 @media only screen and (max-width: 987px){
+  .container3index .home{
+    padding-bottom: 30px;
+  }
   .color-bar{
     display: initial;
   }
@@ -197,9 +197,15 @@ flex-direction: column;
 	
   .home article h1{
     font-size: 30px;
+    width: 400px;height: 150px;
+    
   }
   .home article p{
-    font-size: 15px;
+    font-size: 20px;
+    width: 350px; height: 100px;
+  }
+  .home article #explore{
+    margin-left: 80px;
   }
   .container{
     min-width: 300px; padding-left: 0; margin-left: 0;
