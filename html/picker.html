@@ -14,12 +14,14 @@
     <title>BCM |Color Picker</title>
     <style>
         body{
-            background:#ffffff;
-            margin: 40px;
+            background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+
         }
-        li a {
-            text-decoration: none;
+        .maincontainer h1{
+            text-align: center; color: black; margin:10px 60px;
+            font-size: 40px;
         }
+
         .colorPicker{
             background: none;
             border: none;
@@ -30,9 +32,9 @@
         }
         .container{
             display: flex;
-            width: 600px; margin-left: 40px;
-            padding: 20px;
-            border-radius: 5px; background-color: #eeeeee;
+            width: 600px; margin-left: 300px;
+            padding: 20px; 
+            border-radius: 5px;
             box-shadow: 0 0 10px rgba(0,0,0, 0.15);
         }
         .config{
@@ -62,24 +64,24 @@
             margin-bottom: 5px;
         }
         .color-bar{
-            display: none;
+           display: none;
         }
         @media only screen and (max-width: 768px){
             color-bar{
-                display:initial;
+                 display: block;
             }
         }
       
     </style>
 </head>
 <body>
-    <section id="navbar" class="color-bar">
+    <section id="navbar" >
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="../image/logo.png">
-                 Binismitt Color Mixer
-                </a>
+                <a class="navbar-brand" href="#">
+                    <img src="../image/logo.png" alt="">
+                    
+                    </a>
             <button
                 class="navbar-toggler"
                 type="button"
@@ -97,30 +99,22 @@
                 <li class="nav-item">
                     <a class="nav-link active"
                     aria-current="page"
-                    href="../index.html">Home</a>
+                    href="../index.html" id="home">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link"
-                    href="../html/picker.html">Color Picker</a>
+                    href="picker.html" id="picker">Color Picker</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link"
-                    href="../html/mixer.html">Color Mixer</a>
+                    href="mixer.html" id="mixer">Color Mixer</a>
                 </li>
                 </ul>
             </div>
             </div>
         </nav>
-        </section>
     <div class="maincontainer">
-        <div class="sidebar">
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../html/picker.html">Color Picker</a></li>
-                <li><a href="../html/mixer.html">Color Mixer</a></li>
-            </ul>
-        </div>
-   
+            <h1>Color Picker</h1>
     <div class="container">
         <div class="colorjoe"></div>
         <div class="config">

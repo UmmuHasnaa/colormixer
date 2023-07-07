@@ -15,7 +15,7 @@
     padding-top: 100px;
 }
 .coloroutput {
-    font-family: 'Courier New', Courier, monospace; font-size: 20px; margin:AUTO 10%;
+    font-family: 'Courier New', Courier, monospace; font-size: 20px; margin:AUTO 5%;
 }
 .coloroutput h2{
     color: red; font-size: 30px;
@@ -67,18 +67,6 @@ body {
     border-radius: 50px;
   
     background-color: #fff;
-  }
-  
-  
-  
-  #resultInRgb {
-  display: inline-block;
-    position: relative;
-    left: 459px;
-    font-size: 25px;
-    font-weight: 100;
-    letter-spacing:1px;
-    font-family:monospace;  
   }
   
   
