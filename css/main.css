@@ -197,15 +197,15 @@ flex-direction: column;
 	
   .home article h1{
     font-size: 30px;
-    width: 350px;height: 150px;
+    width: 300px;height: 150px;
     
   }
   .home article p{
     font-size: 20px;
-    width: 300px; height: 100px;
+    width: 200px; height: 100px;
   }
   .home article #explore{
-    margin-left: 80px;
+    margin-left: 50px;
   }
   .container{
     min-width: 300px; padding-left: 0; margin-left: 0;
